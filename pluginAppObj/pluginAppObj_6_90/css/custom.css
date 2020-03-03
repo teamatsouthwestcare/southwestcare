@@ -1,0 +1,34 @@
+
+#pluginAppObj_6_90 {
+	width: 100%;
+}
+#pluginAppObj_6_90 .cd-headline {
+	display: block;
+	font-family: 'Comfortaa';
+	font-size: 20px;
+	line-height: 28px;
+	color: rgba(133, 202, 243, 1);
+	font-style: normal;
+	font-weight: normal;
+}
+
+#pluginAppObj_6_90 .cd-headline b,
+#pluginAppObj_6_90 .cd-headline i,
+#pluginAppObj_6_90 .cd-headline em {
+	
+	font-family: 'Comfortaa';
+	font-size: 20px;
+	line-height: 28px;
+	color: rgba(64, 64, 64, 1);
+	font-style: normal !important;
+	font-weight: normal;
+}
+
+/* Loading bar color */
+#pluginAppObj_6_90 .cd-headline.loading-bar .cd-words-wrapper::after {
+	background-color: rgba(64, 64, 64, 1);
+}
+
+#pluginAppObj_6_90 .cd-intro {
+	text-align: center;
+}

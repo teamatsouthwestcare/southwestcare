@@ -1,0 +1,27 @@
+#pluginAppObj_4_40 .cd-headline {
+	display: block;
+	font-family: 'Days One';
+	font-size: 48px;
+	line-height: 56px;
+	color: rgba(255, 255, 255, 1);
+	font-style: normal;
+	font-weight: normal;
+}
+
+#pluginAppObj_4_40 .cd-headline b,
+#pluginAppObj_4_40 .cd-headline i,
+#pluginAppObj_4_40 .cd-headline em {
+	
+	font-family: 'Days One';
+	font-size: 48px;
+	line-height: 56px;
+	color: rgba(255, 255, 255, 1);
+	font-style: normal !important;
+	font-weight: normal;
+}
+
+/* Loading bar color */
+#pluginAppObj_4_40 .cd-headline.loading-bar .cd-words-wrapper::after {
+	background-color: rgba(255, 255, 255, 1);
+}
+

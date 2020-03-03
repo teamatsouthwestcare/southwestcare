@@ -1,0 +1,474 @@
+#skill_pluginAppObj_24{
+    width: 200px;
+    max-width: 100%;
+	margin: 0 auto 0 auto;
+}
+
+/* CIRCLE STYLE */
+
+#circle_caption_pluginAppObj_24{
+	font-family: 'Comfortaa';
+	font-size: 20pt;
+    line-height: 20pt;
+	font-style: normal;
+	font-weight: normal;
+	color: rgba(136, 136, 136, 1);
+
+	text-align: center;
+	width: 100%;
+	margin-top: 15px;
+}
+
+/* CLASSIC STYLE */
+
+#skill_pluginAppObj_24.classic .skillbar{
+	width: 100%;
+	height: 20px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	background-color: rgba(204, 204, 204, 1);
+	position:relative;
+}
+#skill_pluginAppObj_24.classic .count-bar{
+	height: 100%;
+	width:0px;
+	position:relative;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+
+	background-color: rgba(0, 111, 221, 1);
+}
+#skill_pluginAppObj_24.classic .title{
+	font-family: 'Trebuchet MS';
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: rgba(224, 224, 224, 1);
+	line-height: 20px;
+	text-transform:uppercase;
+
+    width: 100%;
+    text-align: left;
+    left : 10px;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+}
+
+#skill_pluginAppObj_24.classic .count{
+	font-family: 'Trebuchet MS';
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: rgba(224, 224, 224, 1);
+    z-index: 20;
+	position:absolute;
+	top:0;
+	right:12px;
+	line-height: 20px;
+}
+
+/* PIN STYLE */
+
+#skill_pluginAppObj_24.pin{
+    height: 51.28px;
+}
+
+#skill_pluginAppObj_24.pin .skillbar{
+	width: 100%;
+	height: 20px;
+	background-color: transparent;
+	position: relative;
+	top: 31.28px ;
+	padding: 4px;
+	box-sizing: border-box;
+}
+#skill_pluginAppObj_24.pin .count-bar{
+	width: 100%;
+	height: 12px;
+	background-color: transparent;
+	width: 0px;
+	position: relative;
+	overflow: visible !important;
+}
+
+#skill_pluginAppObj_24.pin .title{
+	
+	font-family: 'Comfortaa';
+    font-size: 14pt;
+	line-height: 14pt;
+	font-style: normal;
+	font-weight: normal;
+	color: rgba(64, 64, 64, 1);
+
+	position: absolute;
+	top: -28.62px;
+	left: 0;
+	padding-left: 4px;
+}
+#skill_pluginAppObj_24.pin .count-bar .count{
+
+	font-family: 'Concert One';
+	font-size: 16pt;
+	font-style: normal;
+	font-weight: normal;
+	color: rgba(255, 255, 255, 1);
+
+	position:absolute;
+	line-height: 25.28px;
+	top: -33.28px;
+	right: 0;
+	transform: translate(50%, 0);
+	min-width: 30px;
+	padding: 0 2px;
+	height: 25.28px;
+	text-align:center;
+}
+#skill_pluginAppObj_24.pin .count-bar .count span{
+	position:relative;
+	display:block;
+}
+#skill_pluginAppObj_24.pin .count-bar .count span:after{
+	position:absolute;
+	left:50%;
+	margin-left:-4px;
+	top: 25.28px;
+	content:"";
+	border-left:4px solid transparent;
+	border-right:4px solid transparent;
+}
+#skill_pluginAppObj_24.pin .count-bar .count{
+	background-color: transparent;
+}
+#skill_pluginAppObj_24.pin .count-bar .count span:after{
+	border-top:4px solid transparent;
+}
+
+/* ROUNDED STYLE */
+
+#skill_pluginAppObj_24.rounded{
+    height: 46.28px;
+}
+
+#skill_pluginAppObj_24.rounded .skillbar{
+	width: 100%;
+	height: 20px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background-color: rgba(224, 224, 224, 1);
+	position:relative;
+	top: 26.28px ;
+}
+#skill_pluginAppObj_24.rounded .skillbar{
+	padding:1px;
+	box-sizing:border-box;
+}
+#skill_pluginAppObj_24.rounded .count-bar{
+	height: 18px;
+	position:relative;
+	width:0px;
+	-moz-border-radius: 9px;
+	-webkit-border-radius: 9px;
+	border-radius: 9px;
+	background-color: rgba(0, 111, 221, 1);
+	overflow: visible !important;
+}
+
+#skill_pluginAppObj_24.rounded .title{
+
+	font-family: 'Trebuchet MS';
+	font-size: 14pt;
+    line-height: 14pt;
+	font-style: normal;
+	font-weight: normal;
+	color: rgba(136, 136, 136, 1);
+
+	position: absolute;
+	top: -23.62px;
+	left: 0;
+	padding-left: 10px;
+}
+#skill_pluginAppObj_24.rounded .count-bar .count{
+	position:absolute;
+
+	font-family: 'Trebuchet MS';
+	font-size: 16pt;
+    line-height: 16pt;
+	font-style: normal;
+	font-weight: normal;
+	color: rgba(51, 51, 51, 1);
+
+	top: -26.28px;
+	right: 0;
+}
+/* FILL EFFECTS */
+
+#skill_pluginAppObj_24.gradient .count-bar{
+
+            box-shadow: 0 5px 5px rgba(255,255,255,0.6) inset, 0 -5px 5px rgba(0, 0, 0, 0.4) inset;   -moz-box-shadow: 0 5px 5px rgba(255,255,255,0.6) inset, 0 -5px 5px rgba(0, 0, 0, 0.4) inset;-webkit-box-shadow: 0 5px 5px rgba(255,255,255,0.6) inset, 0 -5px 5px rgba(0, 0, 0, 0.4) inset;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#33ffffff", endColorstr="#33000000", GradientType=0 );
+}
+
+#skill_pluginAppObj_24.gloss .count-bar{
+    background-image: -moz-linear-gradient(top, 
+        rgba(255,255,255,0.2) 0%, 
+        rgba(255,255,255,0.1) 45%, 
+        rgba(0,0,0,0.2) 55%, 
+        rgba(0,0,0,0.1) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, 
+        color-stop(0%,rgba(255,255,255,0.2)), 
+        color-stop(45%,rgba(255,255,255,0.1)), 
+        color-stop(55%,rgba(0,0,0,0.2)), 
+        color-stop(100%,rgba(0,0,0,0.1)));
+    background-image: -webkit-linear-gradient(top, 
+        rgba(255,255,255,0.5) 0%, 
+        rgba(255,255,255,0.1) 45%, 
+        rgba(0,0,0,0.2) 55%, 
+        rgba(0,0,0,0.1) 100%);
+    background-image: -o-linear-gradient(top, 
+        rgba(255,255,255,0.2) 0%, 
+        rgba(255,255,255,0.1) 45%, 
+        rgba(0,0,0,0.2) 55%, 
+        rgba(0,0,0,0.1) 100%);
+    background-image: -ms-linear-gradient(top, 
+        rgba(255,255,255,0.2) 0%, 
+        rgba(255,255,255,0.1) 45%, 
+        rgba(0,0,0,0.2) 55%, 
+        rgba(0,0,0,0.1) 100%);
+    background-image: linear-gradient(to bottom, 
+        rgba(255,255,255,0.2) 0%, 
+        rgba(255,255,255,0.1) 45%, 
+        rgba(0,0,0,0.2) 55%, 
+        rgba(0,0,0,0.1) 100%);
+}
+
+#skill_pluginAppObj_24.striped .count-bar{
+    background-size: 30px 30px;
+     
+    background-image: -moz-linear-gradient(-45deg, 
+        rgba(255,255,255,0.15) 0%, 
+        rgba(255,255,255,0.15) 25%, 
+        rgba(255,255,255,0) 25%, 
+        rgba(255,255,255,0) 50%, 
+        rgba(255,255,255,0.15) 50%, 
+        rgba(255,255,255,0.15) 75%, 
+        rgba(255,255,255,0) 75%, 
+        rgba(255,255,255,0) 100%);
+    background-image: -webkit-gradient(linear, left top, right bottom, 
+        color-stop(0%,rgba(255,255,255,0.2)), 
+        color-stop(25%,rgba(255,255,255,0.2)), 
+        color-stop(25%,rgba(255,255,255,0)), 
+        color-stop(50%,rgba(255,255,255,0)), 
+        color-stop(50%,rgba(255,255,255,0.2)), 
+        color-stop(75%,rgba(255,255,255,0.2)),
+        color-stop(75%,rgba(255,255,255,0)),
+        color-stop(100%,rgba(255,255,255,0)));
+    background-image: -webkit-linear-gradient(-45deg, 
+        rgba(255,255,255,0.3) 0%,
+        rgba(255,255,255,0.3) 25%,
+        rgba(255,255,255,0) 25%,
+        rgba(255,255,255,0) 50%,
+        rgba(255,255,255,0.3) 50%,
+        rgba(255,255,255,0.3) 75%,
+        rgba(255,255,255,0) 75%,
+        rgba(255,255,255,0) 100%);
+    background-image: -o-linear-gradient(-45deg, 
+        rgba(255,255,255,0.15) 0%,
+        rgba(255,255,255,0.15) 25%,
+        rgba(255,255,255,0) 25%,
+        rgba(255,255,255,0) 50%,
+        rgba(255,255,255,0.15) 50%,
+        rgba(255,255,255,0.15) 75%,
+        rgba(255,255,255,0) 75%,
+        rgba(255,255,255,0) 100%);
+    background-image: -ms-linear-gradient(-45deg, 
+        rgba(255,255,255,0.15) 0%,
+        rgba(255,255,255,0.15) 25%,
+        rgba(255,255,255,0) 25%,
+        rgba(255,255,255,0) 50%,
+        rgba(255,255,255,0.15) 50%,
+        rgba(255,255,255,0.15) 75%,
+        rgba(255,255,255,0) 75%,
+        rgba(255,255,255,0) 100%);
+    background-image: linear-gradient(135deg, 
+        rgba(255,255,255,0.15) 0%,
+        rgba(255,255,255,0.15) 25%,
+        rgba(255,255,255,0) 25%,
+        rgba(255,255,255,0) 50%,
+        rgba(255,255,255,0.15) 50%,
+        rgba(255,255,255,0.15) 75%,
+        rgba(255,255,255,0) 75%,
+        rgba(255,255,255,0) 100%);
+}
+
+#skill_pluginAppObj_24.bg_striped .skillbar{
+    background-size: 30px 30px;
+     
+    background-image: -moz-linear-gradient(-45deg, 
+        rgba(255,255,255,0.15) 0%, 
+        rgba(255,255,255,0.15) 25%, 
+        rgba(255,255,255,0) 25%, 
+        rgba(255,255,255,0) 50%, 
+        rgba(255,255,255,0.15) 50%, 
+        rgba(255,255,255,0.15) 75%, 
+        rgba(255,255,255,0) 75%, 
+        rgba(255,255,255,0) 100%);
+    background-image: -webkit-gradient(linear, left top, right bottom, 
+        color-stop(0%,rgba(255,255,255,0.2)), 
+        color-stop(25%,rgba(255,255,255,0.2)), 
+        color-stop(25%,rgba(255,255,255,0)), 
+        color-stop(50%,rgba(255,255,255,0)), 
+        color-stop(50%,rgba(255,255,255,0.2)), 
+        color-stop(75%,rgba(255,255,255,0.2)),
+        color-stop(75%,rgba(255,255,255,0)),
+        color-stop(100%,rgba(255,255,255,0)));
+    background-image: -webkit-linear-gradient(-45deg, 
+        rgba(255,255,255,0.3) 0%,
+        rgba(255,255,255,0.3) 25%,
+        rgba(255,255,255,0) 25%,
+        rgba(255,255,255,0) 50%,
+        rgba(255,255,255,0.3) 50%,
+        rgba(255,255,255,0.3) 75%,
+        rgba(255,255,255,0) 75%,
+        rgba(255,255,255,0) 100%);
+    background-image: -o-linear-gradient(-45deg, 
+        rgba(255,255,255,0.15) 0%,
+        rgba(255,255,255,0.15) 25%,
+        rgba(255,255,255,0) 25%,
+        rgba(255,255,255,0) 50%,
+        rgba(255,255,255,0.15) 50%,
+        rgba(255,255,255,0.15) 75%,
+        rgba(255,255,255,0) 75%,
+        rgba(255,255,255,0) 100%);
+    background-image: -ms-linear-gradient(-45deg, 
+        rgba(255,255,255,0.15) 0%,
+        rgba(255,255,255,0.15) 25%,
+        rgba(255,255,255,0) 25%,
+        rgba(255,255,255,0) 50%,
+        rgba(255,255,255,0.15) 50%,
+        rgba(255,255,255,0.15) 75%,
+        rgba(255,255,255,0) 75%,
+        rgba(255,255,255,0) 100%);
+    background-image: linear-gradient(135deg, 
+        rgba(255,255,255,0.15) 0%,
+        rgba(255,255,255,0.15) 25%,
+        rgba(255,255,255,0) 25%,
+        rgba(255,255,255,0) 50%,
+        rgba(255,255,255,0.15) 50%,
+        rgba(255,255,255,0.15) 75%,
+        rgba(255,255,255,0) 75%,
+        rgba(255,255,255,0) 100%);
+}
+
+#skill_pluginAppObj_24.animated_striped .count-bar{
+    background-size: 30px 30px;
+	
+    background-image: -moz-linear-gradient(-45deg, 
+        rgba(255,255,255,0.15) 0%, 
+        rgba(255,255,255,0.15) 25%, 
+        rgba(255,255,255,0) 25%, 
+        rgba(255,255,255,0) 50%, 
+        rgba(255,255,255,0.15) 50%, 
+        rgba(255,255,255,0.15) 75%, 
+        rgba(255,255,255,0) 75%, 
+        rgba(255,255,255,0) 100%);
+
+    background-image: -webkit-gradient(linear, left top, right bottom, 
+        color-stop(0%,rgba(255,255,255,0.2)), 
+        color-stop(25%,rgba(255,255,255,0.2)), 
+        color-stop(25%,rgba(255,255,255,0)), 
+        color-stop(50%,rgba(255,255,255,0)), 
+        color-stop(50%,rgba(255,255,255,0.2)), 
+        color-stop(75%,rgba(255,255,255,0.2)),
+        color-stop(75%,rgba(255,255,255,0)),
+        color-stop(100%,rgba(255,255,255,0)));
+
+    background-image: -webkit-linear-gradient(-45deg, 
+        rgba(255,255,255,0.3) 0%,
+        rgba(255,255,255,0.3) 25%,
+        rgba(255,255,255,0) 25%,
+        rgba(255,255,255,0) 50%,
+        rgba(255,255,255,0.3) 50%,
+        rgba(255,255,255,0.3) 75%,
+        rgba(255,255,255,0) 75%,
+        rgba(255,255,255,0) 100%);
+
+    background-image: -o-linear-gradient(-45deg, 
+        rgba(255,255,255,0.15) 0%,
+        rgba(255,255,255,0.15) 25%,
+        rgba(255,255,255,0) 25%,
+        rgba(255,255,255,0) 50%,
+        rgba(255,255,255,0.15) 50%,
+        rgba(255,255,255,0.15) 75%,
+        rgba(255,255,255,0) 75%,
+        rgba(255,255,255,0) 100%);
+
+    background-image: -ms-linear-gradient(-45deg, 
+        rgba(255,255,255,0.15) 0%,
+        rgba(255,255,255,0.15) 25%,
+        rgba(255,255,255,0) 25%,
+        rgba(255,255,255,0) 50%,
+        rgba(255,255,255,0.15) 50%,
+        rgba(255,255,255,0.15) 75%,
+        rgba(255,255,255,0) 75%,
+        rgba(255,255,255,0) 100%);
+
+    background-image: linear-gradient(135deg, 
+        rgba(255,255,255,0.15) 0%,
+        rgba(255,255,255,0.15) 25%,
+        rgba(255,255,255,0) 25%,
+        rgba(255,255,255,0) 50%,
+        rgba(255,255,255,0.15) 50%,
+        rgba(255,255,255,0.15) 75%,
+        rgba(255,255,255,0) 75%,
+        rgba(255,255,255,0) 100%);
+
+    animation: progress 3s linear infinite;
+    -moz-animation: progress 3s linear infinite;
+    -webkit-animation: progress 3s linear infinite;
+    -ms-animation: progress 3s linear infinite;
+    -o-animation: progress 3s linear infinite;
+}
+ 
+@-webkit-keyframes progress {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -60px -60px;
+  }
+}
+@-moz-keyframes progress {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -60px -60px;
+  }
+}
+@-ms-keyframes progress {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -60px -60px;
+  }
+}
+@-o-keyframes progress {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -60px -60px;
+  }
+}
+@keyframes progress {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -60px -60px;
+  }
+}
